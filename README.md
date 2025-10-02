@@ -20,11 +20,15 @@
 
 3.luci-app个性化调整，详见luci-app插件清单。
 
+##  **更新日志**
+
+1.[config](https://github.com/1085680176/rockchip-rk35xx-openwrt/blob/main/config/lede-master/config)添加了"bash"、"perl"，默认shell从ash调整为bash，解决打开终端或ssh连接时"/etc/profile.d/30-sysinfo.sh"报错的问题。（2025.10.02）
+
 ##  **附  luci-app插件清单**
 
 1.必备
 
-luci-app-firewall   # 防火墙和端口转发,必备
+luci-app-firewall   # 防火墙和端口转发，必备
 
 luci-app-opkg        #软件包，必备
 
