@@ -12,10 +12,10 @@ on:
       source_branch:
         description: "Select the source branch"
         required: false
-        default: "lede-master"
+        default: "lede_master"
         type: choice
         options:
-          - lede-master
+          - lede_master
       openwrt_board:
         description: "Select device board"
         required: false
