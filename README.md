@@ -21,7 +21,7 @@
 3.luci-app个性化调整，详见luci-app插件清单。
 
 ##  **更新日志**
-
+2.同步更新LEDE、ophub仓库相关文件，[config](https://github.com/1085680176/rockchip-rk35xx-openwrt/blob/main/config/lede-master/config)因为升级dnsmasq和安装nfs的需要添加了“kmod-nft-core“、"kmod-dm"、”kmod-fs-nfsd“、”kmod-fs-nfs“、”kmod-fs-nfs-v4“。（2026.06.02）
 1.[config](https://github.com/1085680176/rockchip-rk35xx-openwrt/blob/main/config/lede-master/config)添加了"bash"、"perl"，默认shell从ash调整为bash，解决打开终端或ssh连接时"/etc/profile.d/30-sysinfo.sh"报错的问题。（2025.10.02）
 
 ##  **附  luci-app插件清单**
